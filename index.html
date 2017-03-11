@@ -21,11 +21,7 @@
             },
             "xAxis": [{
                 "type": "category",
-                "data": [
-                    1991,
-                    1996,
-                    2001
-                ],
+                "data": ['1991','1996','2001'],
                 "axisTick": {
                     "alignWithLabel": true
                 }
@@ -41,6 +37,16 @@
                     3108107,
                     3285344
                 ],
+                markline:{
+                    lineStyle:{
+                        normal:{
+                            type:'dashed'
+                        }
+                    },
+                    data:[
+                        [{type:'min'},{type:'max'}]
+                    ]
+                }
             }, {
                 "name": "Female",
                 "type": "bar",
